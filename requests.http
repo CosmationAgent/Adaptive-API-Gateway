@@ -1,0 +1,29 @@
+### Test Endpoint
+GET http://localhost:8080/api/test
+
+###
+
+### Health Check (Custom)
+GET http://localhost:8080/health
+
+###
+
+### Health Check (Actuator)
+GET http://localhost:8080/actuator/health
+
+###
+
+### Actuator Info
+GET http://localhost:8080/actuator/info
+
+###
+
+### Swagger UI
+GET http://localhost:8080/swagger-ui.html
+
+###
+
+### OpenAPI Spec
+GET http://localhost:8080/api-docs
+
+###
