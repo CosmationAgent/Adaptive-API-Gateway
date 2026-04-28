@@ -3,6 +3,21 @@ GET http://localhost:8080/api/test
 
 ###
 
+### Gateway Status
+GET http://localhost:8080/api/gateway/status
+
+###
+
+### Rate Limit Test - Client A (Run this multiple times quickly to hit limit)
+GET http://localhost:8080/api/gateway/rate-limit-test?clientId=clientA
+
+###
+
+### Rate Limit Test - Client B (Different client, separate limit)
+GET http://localhost:8080/api/gateway/rate-limit-test?clientId=clientB
+
+###
+
 ### Health Check (Custom)
 GET http://localhost:8080/health
 
